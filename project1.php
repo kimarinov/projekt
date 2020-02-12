@@ -1,7 +1,10 @@
 <?php  
 
-//$master = ['healt' =>20, 'Attack' =>10 , 'Resistance' =>2, ];
-$master = $_POST['Master[healt'];
+$master = ['healt' =>20, 'Attack' =>10 , 'Resistance' =>2, ];
+$input_data = $_POST['input_data'];
+$input_arr = explode(',', $input_data);
+$master['healt'] = $input_arr[0]; $master['Attack'] = $input_arr[1]; $master['Resistance'] = $input_arr[2]; 
+
 $apprentice = ['healt' =>5, 'Attack' =>6 , 'Resistance' =>2, ];
 $brute = ['healt' =>6, 'Attack' =>8 , 'Resistance' =>2, ];
 $guardian = ['healt' =>8, 'Attack' =>6 , 'Resistance' =>5, ];
@@ -71,4 +74,4 @@ $resoult = ['atack_master' => 0, 'atack_oponents'=>0, 'avg_dmg_master' => 0,'avg
 // echo "<br>";
 // echo $resoult['avg_dmg_oponents'] / $resoult['atack_oponents'] ;
 
-//echo $resoult['avg_dmg_master'];
+// echo $resoult['avg_dmg_master'];
