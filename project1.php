@@ -1,6 +1,7 @@
 <?php  
 
-$master = ['healt' =>20, 'Attack' =>10 , 'Resistance' =>2, ];
+//$master = ['healt' =>20, 'Attack' =>10 , 'Resistance' =>2, ];
+$master = $_POST['Master[healt'];
 $apprentice = ['healt' =>5, 'Attack' =>6 , 'Resistance' =>2, ];
 $brute = ['healt' =>6, 'Attack' =>8 , 'Resistance' =>2, ];
 $guardian = ['healt' =>8, 'Attack' =>6 , 'Resistance' =>5, ];
@@ -60,12 +61,14 @@ $resoult = ['atack_master' => 0, 'atack_oponents'=>0, 'avg_dmg_master' => 0,'avg
 		}
 		echo "<br>";
 	}
-echo $resoult['atack_oponents'];
-echo "<br>";
-echo $resoult['atack_master'];
-echo "<br>";
-echo $resoult['avg_dmg_master'] / $resoult['atack_master'] ;
-echo "<br>";
-echo $resoult['avg_dmg_oponents'] / $resoult['atack_oponents'] ;
+
+
+// echo $resoult['atack_oponents'];
+// echo "<br>";
+// echo $resoult['atack_master'];
+// echo "<br>";
+// echo $resoult['avg_dmg_master'] / $resoult['atack_master'] ;
+// echo "<br>";
+// echo $resoult['avg_dmg_oponents'] / $resoult['atack_oponents'] ;
 
 //echo $resoult['avg_dmg_master'];
