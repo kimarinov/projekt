@@ -1,19 +1,21 @@
 <?php  
 
 
-$var = 'abc';
+$var = 'aabcaewewa';
+echo $var;
+echo "<br>";
 
 for ($i=0; $i < strlen($var); $i++) { 
 	str_split($var);
 	switch ($var[$i]) {
 	case 'a':
-		echo "string123123 ";
-		
+		echo "a ";
+		break;
 	case 'b':
-		echo "23 ";
+		echo "b ";
 		break;
 	case 'c':
-		echo "rwerw ";
+		echo "c ";
 		break;
 	
 	}
