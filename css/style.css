@@ -1,0 +1,7 @@
+body{
+	background-color: blue;
+}
+table, th, td, tr{
+	border-style: collapse;
+	border: 1px solid black;
+}
