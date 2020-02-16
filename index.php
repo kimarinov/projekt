@@ -11,8 +11,6 @@
 		<input type="submit" name="">
 	</form>
 
-</body>
-</html>
 
 
 <?php 

@@ -5,8 +5,8 @@
 	<title>Project</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
-
-</html>
+<body>
+	
 <?php  
 
 $input_data = $_POST['input_data'];
