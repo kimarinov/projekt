@@ -1,4 +1,4 @@
-6. MasterVsFighters
+6. MasterVsFighters - https://docs.google.com/document/d/1RDG09nJkknPWs0Bq-3SFHy5z1LNvTwScpAvIRGAymAg/edit?usp=sharing
 
 A local fight club has hired you to provide statistics for their fight championships.
 The Championships always follow the same rules:
@@ -92,3 +92,145 @@ Guaranteed constraints:
 
 An array of statistics about the fight.
 Tests
+
+Test No
+Input
+Output
+1
+fighters:
+["a", 
+ "a", 
+ "b"]
+master: [14, 6, 4]
+
+
+["Fighters", 
+ "2", 
+ "1", 
+ "0", 
+ "6", 
+ "5", 
+ "2.67", 
+ "4.00"]
+2
+fighters:
+["g", 
+ "g", 
+ "g"]
+master: [18, 6, 5]
+
+
+["Fighters", 
+ "2", 
+ "1", 
+ "0", 
+ "18", 
+ "17", 
+ "1.00", 
+ "1.00"]
+3
+fighters:
+["g", 
+ "b", 
+ "a"]
+master: [20, 10, 2]
+
+
+["Master", 
+ "3", 
+ "0", 
+ "2", 
+ "4", 
+ "4", 
+ "4.50", 
+ "6.50"]
+4
+fighters:
+["a", 
+ "a", 
+ "a"]
+master: [4, 7, 5]
+
+
+["Master", 
+ "3", 
+ "0", 
+ "1", 
+ "3", 
+ "3", 
+ "1.00", 
+ "5.00"]
+5
+fighters:
+["g", 
+ "b", 
+ "g", 
+ "b"]
+master: [20, 10, 5]
+
+
+["Master", 
+ "4", 
+ "0", 
+ "10", 
+ "6", 
+ "6", 
+ "1.67", 
+ "6.00"]
+6
+fighters: ["a"]
+master: [5, 7, 2]
+
+
+["Master", 
+ "1", 
+ "0", 
+ "1", 
+ "1", 
+ "1", 
+ "4.00", 
+ "5.00"]
+7
+fighters:
+["a", 
+ "a", 
+ "a", 
+ "b", 
+ "g"]
+master: [7, 10, 5]
+
+
+["Fighters", 
+ "4", 
+ "1", 
+ "0", 
+ "5", 
+ "4", 
+ "1.40", 
+ "8.00"]
+8
+fighters: ["g"]
+master: [20, 8, 1]
+
+
+["Master", 
+ "1", 
+ "0", 
+ "5", 
+ "3", 
+ "3", 
+ "5.00", 
+ "3.00"]
+9
+fighters: ["b"]
+master: [7, 6, 1]
+
+
+["Fighters", 
+ "0", 
+ "1", 
+ "0", 
+ "1", 
+ "0", 
+ "7.00", 
+ "0.00"]
